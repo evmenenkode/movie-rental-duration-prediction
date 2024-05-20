@@ -26,10 +26,10 @@ The dataset used for this project is rental_info.csv, which contains the followi
 ## Project Structure
 
 .
-├── rental_info.csv          # The dataset \n
-├── rental_duration_prediction.ipynb   # Jupyter notebook with the code \n
-├── README.md                # This file \n
-└── requirements.txt         # Required Python packages
+├── rental_info.csv # The dataset
+├── rental_duration_prediction.ipynb # Jupyter notebook with the code
+├── README.md # This file
+└── requirements.txt # Required Python packages
 
 ## Data Preprocessing
 1. Convert the rental_date and return_date columns to datetime format.
@@ -56,12 +56,12 @@ The dataset used for this project is rental_info.csv, which contains the followi
 ## Results
 The results of the model evaluations on the test set are as follows:
 
-Ridge Regression MSE: 2.941870616734153
-Linear Regression MSE: 2.9417238646975976
-Lasso Regression MSE: 2.9417116642920518
-Decision Tree Regressor MSE: 2.165347833153885
-Random Forest Regressor MSE: 2.031285398706584
-Gradient Boosting Regressor MSE: 2.06977259149959
+- Ridge Regression MSE: 2.941870616734153
+- Linear Regression MSE: 2.9417238646975976
+- Lasso Regression MSE: 2.9417116642920518
+- Decision Tree Regressor MSE: 2.165347833153885
+- Random Forest Regressor MSE: 2.031285398706584
+- Gradient Boosting Regressor MSE: 2.06977259149959
 The best model for predicting the rental duration is RandomForestRegressor with an MSE of 2.031285398706584
 
 ## Conclusion
