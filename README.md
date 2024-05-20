@@ -28,11 +28,10 @@ The dataset used for this project is `rental_info.csv`, which contains the follo
 
 ## Project Structure
 
-(```.
-├── rental_info.csv # The dataset
-├── rental_duration_prediction.ipynb # Jupyter notebook with the code
-├── README.md # This file
-└── requirements.txt # Required Python packages)
+─ rental_info.csv # The dataset
+─ rental_duration_prediction.ipynb # Jupyter notebook with the code
+─ README.md # This file
+─ requirements.txt # Required Python packages
 
 ## Data Preprocessing
 1. Convert the `rental_date` and `return_date` columns to datetime format.
@@ -79,7 +78,7 @@ To use the model, run the Jupyter notebook `rental_duration_prediction.ipynb` wh
 
 ## Author
 
-[Denis]
+Denis Evmenenko
 
 ## License
 
