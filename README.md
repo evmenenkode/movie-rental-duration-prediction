@@ -26,9 +26,9 @@ The dataset used for this project is rental_info.csv, which contains the followi
 ## Project Structure
 
 .
-├── rental_info.csv          # The dataset
-├── rental_duration_prediction.ipynb   # Jupyter notebook with the code
-├── README.md                # This file
+├── rental_info.csv          # The dataset \n
+├── rental_duration_prediction.ipynb   # Jupyter notebook with the code \n
+├── README.md                # This file \n
 └── requirements.txt         # Required Python packages
 
 ## Data Preprocessing
