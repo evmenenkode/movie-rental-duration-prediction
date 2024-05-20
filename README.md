@@ -25,31 +25,31 @@ The dataset used for this project is rental_info.csv, which contains the followi
 
 ## Project Structure
 
-.
+(```.
 ├── rental_info.csv # The dataset
 ├── rental_duration_prediction.ipynb # Jupyter notebook with the code
 ├── README.md # This file
-└── requirements.txt # Required Python packages
+└── requirements.txt # Required Python packages)
 
 ## Data Preprocessing
-1. Convert the rental_date and return_date columns to datetime format.
+1. Convert the `rental_date` and `return_date` columns to datetime format.
 2. Calculate the rental length in days.
 3. Create dummy variables for special features:
-- deleted_scenes: 1 if the special feature includes "Deleted Scenes", otherwise 0.
-- behind_the_scenes: 1 if the special feature includes "Behind the Scenes", otherwise 0.
-4. Drop unnecessary columns (rental_date, return_date, special_features).
+   - `deleted_scenes`: 1 if the special feature includes "Deleted Scenes", otherwise 0.
+   - `behind_the_scenes`: 1 if the special feature includes "Behind the Scenes", otherwise 0.
+4. Drop unnecessary columns (`rental_date`, `return_date`, `special_features`).
 ## Model Training and Evaluation
-1. Separate the features (X) and target variable (y).
-2. Standardize the features using StandardScaler.
+1. Separate the features (`X`) and target variable (`y`).
+2. Standardize the features using `StandardScaler`.
 3. Split the data into training and testing sets.
 4. Define a set of regression models:
-- Linear Regression
-- Ridge Regression
-- Lasso Regression
-- Decision Tree Regressor
-- Random Forest Regressor
-- Gradient Boosting Regressor
-5. Perform hyperparameter tuning using GridSearchCV to find the best parameters for each model.
+   - Linear Regression
+   - Ridge Regression
+   - Lasso Regression
+   - Decision Tree Regressor
+   - Random Forest Regressor
+   - Gradient Boosting Regressor
+5. Perform hyperparameter tuning using `GridSearchCV` to find the best parameters for each model.
 6. Evaluate each model on the test set.
 7. Identify and save the best model based on the lowest MSE.
   
